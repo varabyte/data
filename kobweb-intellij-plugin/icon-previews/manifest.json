@@ -1,0 +1,46 @@
+{
+    "formatVersion": 1,
+    "kobwebCommit": "15e6800e6bd771371b401d3cb6c01230b08450f5",
+    "sets": {
+        "fa": {
+            "file": "fa.bin",
+            "sha256": "dff474680b53d4e3678dd4390e3147021070dedf07f56b7236204771ad7cf730",
+            "source": "Font Awesome 6.5.2 (cdnjs)",
+            "styles": {
+                "fas": 1392,
+                "far": 163,
+                "fab": 489
+            }
+        },
+        "mdi": {
+            "file": "mdi.bin",
+            "sha256": "49de112bbbc850bdd6eb3f203266aca6844cd1f5dd83000ff8c828babe490e7b",
+            "source": "google/material-design-icons@49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+            "styles": {
+                "mdi": 2231,
+                "mdio": 2192,
+                "mdir": 2197,
+                "mdis": 2197,
+                "mdit": 2235
+            }
+        },
+        "ms": {
+            "file": "ms.bin",
+            "sha256": "7da1a12e0ff71027234c91b2fcf6c971233240755ea23ec681957cc4f213a8f9",
+            "source": "google/material-design-icons@49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+            "styles": {
+                "mso": 4300,
+                "msr": 4300,
+                "mss": 4300
+            }
+        },
+        "lucide": {
+            "file": "lucide.bin",
+            "sha256": "9e4e863fe9ce59398a63b417c0ed34a4e799b6901089beef582bf618e07c31ce",
+            "source": "Lucide 1.22.0 (from Kobweb's lucide-icons.json)",
+            "styles": {
+                "lucide": 1744
+            }
+        }
+    }
+}
