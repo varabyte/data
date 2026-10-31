@@ -1,0 +1,23 @@
+# Used by the Kobweb IntelliJ plugin to update imports of declarations that
+# moved to a new package. Deprecating with ReplaceWith doesn't handle that
+# well, especially for extension functions.
+#
+# Each entry is the old package, then the new package, then the names of the
+# top-level declarations that moved between them, all separated by whitespace.
+# Names can continue on the following lines by indenting them. A blank line
+# ends an entry, while lines holding only a comment are ignored.
+#
+# If something moves again in the future, keep the old entry and add a new
+# one from where it is now. The plugin follows the chain, so users on any
+# version get the right import.
+#
+# The plugin only suggests a change if the new location exists in the user's
+# version of the library and every use of the import in the file would still
+# compile afterward.
+
+# Kobweb 0.25.2: API helpers moved from `browser` to `api`
+com.varabyte.kobweb.browser com.varabyte.kobweb.api
+  ApiFetcher api
+  patch post put query
+  tryPatch tryPost tryPut tryQuery
+
