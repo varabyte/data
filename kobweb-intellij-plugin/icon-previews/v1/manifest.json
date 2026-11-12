@@ -1,21 +1,30 @@
 {
     "formatVersion": 1,
-    "kobwebCommit": "15e6800e6bd771371b401d3cb6c01230b08450f5",
     "sets": {
-        "fa": {
-            "file": "fa.bin",
-            "sha256": "dff474680b53d4e3678dd4390e3147021070dedf07f56b7236204771ad7cf730",
-            "source": "Font Awesome 6.5.2 (cdnjs)",
+        "fa6": {
+            "file": "fa6.bin",
+            "sha256": "be2ff844d9005d5d4cebf29ac8c10157b377fcfbfe258f79297bcc2c5c8f7c2f",
+            "source": "Font Awesome 6.7.2 (FortAwesome/Font-Awesome@af620534bfc3c2d4cbefcfeec29603bbe7809e64)",
             "styles": {
-                "fas": 1392,
+                "fas": 1402,
                 "far": 163,
-                "fab": 489
+                "fab": 495
+            }
+        },
+        "fa7": {
+            "file": "fa7.bin",
+            "sha256": "bc83ee645b6d25fcc9e417828603b7d3e2a724a44dfa1d2d1411b08ad08ba0ed",
+            "source": "Font Awesome 7.3.1 (FortAwesome/Font-Awesome@14c65a3747d0f3b751f15831fc719236aea8729d)",
+            "styles": {
+                "fas": 1422,
+                "far": 169,
+                "fab": 572
             }
         },
         "mdi": {
             "file": "mdi.bin",
             "sha256": "49de112bbbc850bdd6eb3f203266aca6844cd1f5dd83000ff8c828babe490e7b",
-            "source": "google/material-design-icons@49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+            "source": "google/material-design-icons@10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7",
             "styles": {
                 "mdi": 2231,
                 "mdio": 2192,
@@ -26,20 +35,30 @@
         },
         "ms": {
             "file": "ms.bin",
-            "sha256": "7da1a12e0ff71027234c91b2fcf6c971233240755ea23ec681957cc4f213a8f9",
-            "source": "google/material-design-icons@49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+            "sha256": "7a0549c8b1b17fed1ea74bf512e196fbb088c5bb0cab3564336e850804afb66f",
+            "source": "google/material-design-icons@10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7",
             "styles": {
-                "mso": 4300,
-                "msr": 4300,
-                "mss": 4300
+                "mso": 4303,
+                "msr": 4303,
+                "mss": 4303
             }
         },
         "lucide": {
             "file": "lucide.bin",
-            "sha256": "9e4e863fe9ce59398a63b417c0ed34a4e799b6901089beef582bf618e07c31ce",
-            "source": "Lucide 1.22.0 (from Kobweb's lucide-icons.json)",
+            "sha256": "b1c3d0f6ba94f3480093169a2de9d57a882b9c7debc5c96cab7dead88f114451",
+            "source": "Lucide 1.72.0 (lucide-icons/lucide@03eae6069edfc373673bd05d723491f05ba936e3)",
             "styles": {
-                "lucide": 1744
+                "lucide": 2052
+            }
+        },
+        "fa": {
+            "file": "fa.bin",
+            "sha256": "be2ff844d9005d5d4cebf29ac8c10157b377fcfbfe258f79297bcc2c5c8f7c2f",
+            "source": "Font Awesome 6.7.2 (FortAwesome/Font-Awesome@af620534bfc3c2d4cbefcfeec29603bbe7809e64)",
+            "styles": {
+                "fas": 1402,
+                "far": 163,
+                "fab": 495
             }
         }
     }

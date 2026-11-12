@@ -4,17 +4,19 @@ Outlines for every icon in Kobweb's `silk-icons-*` modules. The
 [Kobweb IntelliJ plugin](https://github.com/varabyte/kobweb-intellij-plugin) downloads them to show icons in the
 editor gutter.
 
-* `manifest.json`: format version, the Kobweb commit the icon lists came from, and the source, checksum, and per-style
-  icon counts for each set
-* `fa.bin`, `mdi.bin`, `ms.bin`, `lucide.bin`: one file per icon set, in the format described in the plugin's
-  `shared/icon-previews-format` module
+* `manifest.json`: format version, and the source, checksum, and per-style icon counts for each set
+* `fa6.bin`, `fa7.bin`, `mdi.bin`, `ms.bin`, `lucide.bin`: one file per icon set (and per major version, for Font
+  Awesome), in the format described in the plugin's `shared/icon-previews-format` module
+* `fa.bin`: a copy of `fa6.bin` for plugin versions up to 0.8.0, which only know a single Font Awesome set
+
+Each set comes from the newest upstream release (of each major version, for Font Awesome).
 
 ## Updating
 
 These files are generated, so don't edit them by hand. From the plugin repo, run:
 
 ```bash
-./gradlew :tools:icon-previews-generator:generate    # optionally -PkobwebRef=<branch, tag, or commit>
+./gradlew :tools:icon-previews-generator:generate
 ```
 
 Then copy the files in `tools/icon-previews-generator/build/icon-previews/data` into this folder, replacing the old
